@@ -75,7 +75,7 @@ public class roughWork extends Activity {
 			break;
 
 		case R.id.segClearFrontView:
-			Toast.makeText(getBaseContext(), "Edges are Cleared!", 0).show();
+			Toast.makeText(getBaseContext(), "Edges Cleared!", 0).show();
 
 			frontView.setDrawingCacheEnabled(true);
 			white = frontView.getDrawingCache();
